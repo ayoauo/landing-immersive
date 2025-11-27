@@ -1,0 +1,174 @@
+a {
+  cursor: pointer;
+}
+
+.camera.container {
+  overflow: hidden;
+}
+
+.framee {
+  height: auto;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 1em;
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .framee {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.div-block-3, .image_box_02.shape.clipped, .interacrive_installation_img_02,
+.interacrive_installation_img_03, .interacrive_installation_img_05,
+.interacrive_installation_img_06, .interacrive_installation_video_02 {
+  height: 18.6em;
+}
+
+.navbar_down.section {
+  height: 4.19em;
+}
+
+.video_block, .image-5, .image_box_02.shape.clipped02, .mb_video_block_01,
+.mb_installation_dubai, .video_block-copy, .mb_video_block-_multimedia,
+.img_murcury_media, .img_dubai, .mb_installation_dubai_video {
+  height: 18.63em;
+}
+
+@media screen and (max-width: 1024px) {
+  .video_block, .image-5, .image_box_02.shape.clipped02, .mb_video_block_01,
+  .mb_installation_dubai, .video_block-copy, .mb_video_block-_multimedia,
+  .img_murcury_media, .img_dubai, .mb_installation_dubai_video {
+    height: 200px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .video_block, .image-5, .mb_video_block_01,
+  .mb_installation_dubai, .video_block-copy, .mb_video_block-_multimedia,
+  .img_murcury_media, .img_dubai, .mb_installation_dubai_video {
+    height: 250px;
+  }
+}
+
+
+.anchor {
+  transition: all .3s ease;
+  font-weight: 400;
+}
+
+.anchor.active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.fancybox__content {
+  padding: 0;
+}
+
+.has-iframe .fancybox__content, .has-map .fancybox__content, .has-pdf .fancybox__content {
+  width: calc(100% - 120px - 2rem);
+}
+
+@media screen and (max-width: 1024px) {
+  .has-iframe .fancybox__content, .has-map .fancybox__content, .has-pdf .fancybox__content {
+    width: calc(100% - 60px);
+  }
+}
+
+.fancybox__content {
+  max-height: 65vw;
+}
+
+.fancybox__iframe {
+  position: absolute;
+  height: calc(100% + 1px);
+}
+
+a[data-fancybox] {
+  position: relative;
+  width: 100%;
+}
+
+.player-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 3.5vw;
+  height: 3.5vw;
+  background: url(play-circle.svg) no-repeat center;
+  background-size: contain;
+  transform: translate(-50%, -50%);
+  opacity: .7;
+  transition: all .2s ease;
+  z-index: 5;
+}
+
+@media screen and (max-width: 1024px) {
+  .player-play {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+a[data-fancybox]:hover .player-play {
+  opacity: 1;
+}
+
+.player-text {
+  position: absolute;
+  width: 50%;
+  left: 32px;
+  bottom: 32px;
+  color: #fff;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1366px) {
+  .player-text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .m-20 {
+    margin-bottom: 20px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .div-block-3, .image_box_02.shape.clipped, .interacrive_installation_img_02, .interacrive_installation_img_03, .interacrive_installation_img_05, .interacrive_installation_img_06, .interacrive_installation_video_02 {
+    height: 200px;
+}
+}
+@media screen and (max-width: 479px){
+.div-block-3, .image_box_02.shape.clipped, .interacrive_installation_img_02, .interacrive_installation_img_03, .interacrive_installation_img_05, .interacrive_installation_img_06, .interacrive_installation_video_02 {
+  height: 130px;
+} }
+
+@media screen and (max-width: 479px) {
+  .image_box_02.shape.clipped02 {
+      height: 130px;
+  }
+}
+
+.text-field, .text-field-message {
+  border: 1px solid transparent;
+  transition: border-color .2s ease;
+}
+
+.text-field.invalid, .text-field-message.invalid {
+  border-color: #f00;
+}
+
+.w-form-fail, .w-form-done {
+  margin-top: 10px;
+  color: #333;
+}

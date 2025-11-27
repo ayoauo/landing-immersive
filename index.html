@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html data-wf-page="65e5fb6e0b68f268f597d24c" data-wf-site="65e5fb6d0b68f268f597d1d6">
+<head>
+  <meta charset="utf-8">
+  
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="edits/libs/fancybox/index.css" />
+  <link href="css/annans-exceptional-site.webflow.css" rel="stylesheet" type="text/css">
+  <link href="edits/index.css" rel="stylesheet" type="text/css">
+  <style>@media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="4894121b-1fc6-0ab4-4036-686d2c81d59c"] {-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="5c787884-37dc-e34b-8247-4f35455187e3"] {-webkit-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}}@media (max-width:991px) and (min-width:768px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="3aa289e1-25e4-7cda-ba8d-0ef612a2c5a5"] {-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="3b13ce95-9e91-955a-8c0b-e3e53a65804f"] {-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="5bf4f10d-ccc4-818b-c2a1-5c3ccba41cca"] {-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="8f41c464-f491-6011-2c29-5c24ffdd6d0d"] {-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="5e52e061-6097-c8b0-b120-e4e3cdfc3a5f"] {-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="5c787884-37dc-e34b-8247-4f35455187e3"] {-webkit-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}}@media (max-width:767px) and (min-width:480px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="3aa289e1-25e4-7cda-ba8d-0ef612a2c5a5"] {-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="3b13ce95-9e91-955a-8c0b-e3e53a65804f"] {-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="5bf4f10d-ccc4-818b-c2a1-5c3ccba41cca"] {-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="8f41c464-f491-6011-2c29-5c24ffdd6d0d"] {-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="5e52e061-6097-c8b0-b120-e4e3cdfc3a5f"] {-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="5c787884-37dc-e34b-8247-4f35455187e3"] {-webkit-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="8a4f8a83-2bd5-fab9-6da8-896b8f7c3248"] {-webkit-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}}@media (max-width:479px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="3aa289e1-25e4-7cda-ba8d-0ef612a2c5a5"] {-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="3b13ce95-9e91-955a-8c0b-e3e53a65804f"] {-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="5bf4f10d-ccc4-818b-c2a1-5c3ccba41cca"] {-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="8f41c464-f491-6011-2c29-5c24ffdd6d0d"] {-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="5e52e061-6097-c8b0-b120-e4e3cdfc3a5f"] {-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="8a4f8a83-2bd5-fab9-6da8-896b8f7c3248"] {-webkit-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}}</style>
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Cormorant:300,regular,500,600,700","Cabin:regular,500,600,700","Manrope:300,400,500,600,regular:cyrillic,latin"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+ <title>Разработка интерактивных 3D презентаций и инсталляций под заказ</title>
+  <meta name="description" content="Разработка и создание интерактивных инсталляций и 3D презентаций для выставки, презентации, коммерческой или частной задачи по всей России">
+  <meta name="keywords" content="инсталляция для галлереи,инсталляция для музея,интерактивная панель,сенсорный стол,кинетическая инсталляция">
+  <meta property="og:title" content="Разработка интерактивных 3D презентаций и инсталляций под заказ">
+  <meta property="og:description" content="Разработка и создание интерактивных 3D презентаций и инсталляций для выставки, презентации, коммерческой или частной задачи по всей России">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="//dctouch.ru">
+  <meta property="og:site_name" content="dcTOUCH">
+  <meta property="og:image" content="//dctouch.ru/images/b76f2760831663.5a5ac7fce83c5.webp"> 
+  <!-- заменить картинку -->
+  
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="https://www.dctouch.ru/img/32x32.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="https://www.dctouch.ru/img/32x32_dark.svg" media="(prefers-color-scheme: dark)">
+    <link rel="apple-touch-icon" type="image/png" href="https://www.dctouch.ru/img/180x180.png">
+    <link rel="manifest" href="https://www.dctouch.ru/assets/manifest.webmanifest.json">
+
+
+  <style>
+  .collection-list-2 {
+    will-change:transform;
+  }
+</style>
+</head>
+<body class="body">
+  <div class="global-css w-embed">
+    <style>
+html{
+overscroll-behavior:none;
+}
+body {
+ font-size: 1vw;
+ overscroll-behavior:none;
+}
+/* Max Font Size */
+@media screen and (min-width:1920px) {
+ body {font-size: 19.2px;}
+}
+/* Container Max Width */
+.container {
+  max-width: 1920px;
+}
+/* Min Font Size */
+@media screen and (max-width:991px) {
+ body {font-size: 9.91px;}
+}
+</style>
+    <style>
+.svg-clip {
+  width: 0;
+  height: 0;
+}
+video-cut {
+  width: 50%;
+  -webkit-clip-path: url(#clip-rip-bottom);
+  clip-path: url(#clip-rip-bottom);
+}
+</style>
+    <style>
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FFF;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+body { -webkit-font-smoothing: antialiased; }
+body { overflow: -moz-scrollbars-none; -ms-overflow-style: none;  }
+:root{
+  scrollbar-width: none !important;
+}
+body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+</style>
+  </div>
+  <div data-w-id="b4cfb30b-5d84-798a-f00a-c89d1e95c093" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease-out-quart" data-easing2="ease-in-out" role="banner" class="navbar_mobile w-nav">
+    <div class="container-2 w-container">
+      <div data-w-id="8a4f8a83-2bd5-fab9-6da8-896b8f7c3247" class="switcher_desctop">
+        <div data-w-id="8a4f8a83-2bd5-fab9-6da8-896b8f7c3248" class="theme_switcher"></div>
+      </div>
+      <div data-w-id="d15f2b10-57e7-8f99-2691-dd1583c0351d" class="switcher_mobile">
+        <div class="theme_switcher_mb"></div>
+      </div>
+      <a href="#home" class="brand-2 w-nav-brand"><img src="images/DCLOGO-1.svg" loading="eager" alt="логотип компании dctouch" class="logo_dark_theme"><img src="images/logo_light_theme.svg" loading="lazy" alt="логотип компании dctouch светлая тема" class="logo_light_theme"></a>
+      <nav role="navigation" class="w-nav-menu">
+        <a href="#two" class="nav-link-2 w-nav-link">Разработка решений</a>
+        <a href="#three" class="nav-link-3 w-nav-link">Цифровой арт и Fashion</a>
+        <a href="#four" class="nav-link-4 w-nav-link">Медиа и ритейл</a>
+        <a href="#six" class="nav-link-5 w-nav-link">Выставки и музеи</a>
+        <a href="#seven" class="nav-link-6 w-nav-link">Арт Контент</a>
+        <a href="https://www.dctouch.ru/" class="nav-link-7 w-nav-link" target="_blank">Основной сайт</a>
+        <a href="#contact" class="nav-link-9 w-nav-link">Контакты</a>
+        <a href="#contact" class="nav-link-10 w-nav-link">Заказать</a>
+      </nav>
+      <div class="menu-button-2 w-nav-button">
+        <div data-is-ix2-target="1" class="lottie-animation-2" data-w-id="4bb331c8-2e45-31fb-65f6-3c9f8086ead4" data-animation-type="lottie" data-src="documents/Animation---1712669681226.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="1.65" data-duration="0" data-ix2-initial-state="1"></div>
+        <div data-is-ix2-target="1" class="lottie-animation_light" data-w-id="90af1498-d043-e3e7-8144-8f446785c487" data-animation-type="lottie" data-src="documents/Animation---1712669498225-1.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-duration="0" data-ix2-initial-state="1"></div>
+      </div>
+    </div>
+  </div>
+  <div data-collapse="small" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar_top section w-nav">
+    <div class="container navbar w-container">
+      <a data-href="#home" class="brand w-nav-brand anchor"><img src="images/DCLOGO-1.svg" loading="eager" alt="логотип компании dctouch" class="logo_dark_theme"><img src="images/logo_light_theme.svg" loading="lazy" alt="логотип компании dctouch интерактивные системы" class="logo_light_theme"></a>
+      <div class="link-wrapper">
+        <a href="https://www.dctouch.ru/" target="_blank" class="nav-link first_top">Основной сайт</a>
+        <a href="#contact" class="nav-link">Контакты</a>
+        <a href="#contact" class="nav-link last">Заказать</a>
+      </div>
+      <div class="menu-button w-nav-button">
+        <div class="w-icon-nav-menu"></div>
+      </div>
+      <div data-w-id="e4e4a511-748b-c770-d444-0b497fb56c50" class="switcher_desctop">
+        <div style="-webkit-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="theme_switcher"></div>
+      </div>
+    </div>
+  </div>
+  <div data-w-id="4228a5f5-c060-24e9-390b-96c7c04ba41f" class="track section">
+    <div class="camera container">
+      <div class="framee">
+        <div class="item mb_item" id="home">
+          <div class="item_wrap">
+            <div class="left_blocks_01 tablet_left_blocks_00">
+              <div class="left_box_wrapper_01">
+                <div class="headers_box_01">
+                  <h1 class="heading-1">Интерактивные<br>инсталляции</h1>
+                  <h3 class="heading-4">Эмоциональное погружение в продукт</h3><img src="images/arrow_icon_down.svg" loading="lazy" data-w-id="3aa289e1-25e4-7cda-ba8d-0ef612a2c5a5" alt="иконка стрелки" class="image-12">
+                </div>
+                <div class="w-layout-hflex bubbls_flex_box_01_01"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент сайта интерактивных инсталляций" class="image-2"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент" class="image-3"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент" class="image-4"></div>
+                <div class="video_block">
+                  <a data-fancybox data-src="https://vk.com/video_ext.php?oid=-34832376&id=456239087&hd=2" data-type="iframe" data-preload="false" class="lightbox-link w-inline-block">
+                    <span class="player-play"></span>
+                    <span class="player-text">// Интерактивная, иммерсивная инсталляция — ДубайЭКСПО2020</span>
+                    <img
+                      alt="обложка видео про Интерактивные, иммерсивные инсталляции с ДубайЭКСПО2020"
+                      width="Auto"
+                      loading="lazy"
+                      class="image-17 tablet_style"
+                      src="images/2.webp"
+                      sizes="(max-width: 479px) 100vw, (max-width: 991px) 45vw, (max-width: 1919px) 30vw, 581.9375px"
+                      srcset="images/2-p-500.webp 500w, images/2-p-800.webp 800w, images/2-p-1080.webp 1080w, images/2-p-1600.webp 1600w, images/2.webp 2014w">
+                    <!-- <script type="application/json" class="w-json">{"items": [{"url": "https://youtube.com/watch?v=Ee2FbJab0gM?si=tQZXw1kefI2zBX6d","originalUrl": "https://youtube.com/watch?v=Ee2FbJab0gM?si=tQZXw1kefI2zBX6d","width": 940,"height": 528,"thumbnailUrl": "https://i.ytimg.com/vi/Ee2FbJab0gM/hqdefault.jpg","html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FEe2FbJab0gM%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEe2FbJab0gM&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEe2FbJab0gM%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>","type": "video"}],"group": ""}</script> -->
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="right_blocks_01">
+              <div class="arrow_box"><img src="images/arrow_next.svg" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" data-w-id="7868cc98-649e-77f5-3a61-fe881ac06805" alt="декративный элемент стрелка вправо" class="arrow_bubble_01">
+                <div class="image_box01 shape clipped">
+                  <div class="text-block">Интерактивные / иммерсивные инсталляции — инструмент, который используется для эмоциональной коммуникации, погружения в контекст брэнда или идеи продукта. Позволяет аудитории взаимодействовать <br>с контентом и стать частью создаваемой среды.</div><img src="images/b76f2760831663.5a5ac7fce83c5.webp" loading="lazy" sizes="(max-width: 479px) 96vw, (max-width: 991px) 45vw, (max-width: 1919px) 63vw, 1208.4375px" srcset="images/b76f2760831663.5a5ac7fce83c5.webp 500w, images/b76f2760831663.5a5ac7fce83c5.webp 800w, images/b76f2760831663.5a5ac7fce83c5.webp 1080w, images/b76f2760831663.5a5ac7fce83c5.webp 1400w" alt="изображение интерактивные инсталляции" class="interacrive_installation_img_01 style_video">
+                  <div class="tags_box_01">
+                    <div class="text-block-tags">Интерактив</div>
+                    <div class="text-block-tags">Арт Контент</div>
+                    <div class="text-block-tags">Оборудование</div>
+                  </div>
+                </div>
+              </div>
+              <div class="clip_path_img w-embed">
+                <style>
+.svg {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.clipped {
+  background-size: cover;
+  -webkit-clip-path: url(#my-clip-path);
+  clip-path: url(#my-clip-path);
+}
+</style>
+                <svg class="svg">
+                  <clippath id="my-clip-path" clippathunits="objectBoundingBox">
+                    <path d="M0.02,0.001 h0.961 c0.011,0,0.019,0.012,0.019,0.026 v0.461 c0,0.008,-0.003,0.016,-0.008,0.021 l-0.487,0.487 c-0.003,0.003,-0.007,0.005,-0.012,0.005 H0.02 c-0.011,0,-0.019,-0.012,-0.019,-0.026 V0.027 C0,0.012,0.009,0.001,0.02,0.001"></path>
+                  </clippath>
+                </svg>
+              </div>
+              <div class="div-block-16">
+                <div class="w-layout-hflex mob_bubbls_flex_box_01 mb_bubbles_marg"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент сайта" class="image-2"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент сайта" class="image-3"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент сайта" class="image-4"></div>
+                <div class="text-block-7">Интерактивные / иммерсивные инсталляции — инструмент, который используется для эмоциональной коммуникации, погружения в контекст брэнда или идеи продукта. Позволяет аудитории взаимодействовать с контентом и стать частью создаваемой среды.</div>
+                <div class="mb_video_block_01"><img src="images/Снимок-экрана-2024-01-31-в-20.53.08.webp" loading="lazy" sizes="100vw" srcset="images/Снимок-экрана-2024-01-31-в-20.53.08-p-500.webp 500w, images/Снимок-экрана-2024-01-31-в-20.53.08-p-800.webp 800w, images/Снимок-экрана-2024-01-31-в-20.53.08-p-1080.webp 1080w, images/Снимок-экрана-2024-01-31-в-20.53.08-p-1600.webp 1600w, images/Снимок-экрана-2024-01-31-в-20.53.08.webp 2014w" alt="обложка видео Интерактивных, иммерсивных инсталяций ДУБАЙ ЭКСПО2020" class="mb_installation_dubai">
+                  <a data-fancybox data-src="https://vk.com/video_ext.php?oid=-34832376&id=456239087&hd=2" data-type="iframe" data-preload="false" class="lightbox-link-2 w-inline-block">
+                    <span class="player-play"></span>
+                    <span class="player-text">// Интерактивная, иммерсивная инсталляция — ДубайЭКСПО2020</span>
+                    <img
+                      alt="Изображение интерактивные, иммерсивные инсталляции ДУБАЙ ЭКСПО 2020"
+                      loading="lazy"
+                      class="mb_installation_dubai_video"
+                      sizes="(max-width: 479px) 96vw, 100vw"
+                      src="images/2.webp"
+                      srcset="images/2-p-500.webp 500w, images/2-p-800.webp 800w, images/2-p-1080.webp 1080w, images/2-p-1600.webp 1600w, images/2.webp 2014w">
+                    <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item section" id="two">
+          <div class="item_wrap mob_item_wrap_02">
+            <div class="left_blocks_01 mob_left_blocks_02">
+              <div class="left_box_wrapper_01 mob_left_box_wrapper_02">
+                <div class="video_block">
+                  <a data-fancybox data-src="https://vk.com/video_ext.php?oid=-34832376&id=456239091&hd=2" data-type="iframe" data-preload="false" class="lightbox-link w-inline-block">
+                    <span class="player-play"></span>
+                    <span class="player-text">// Barvikha Luxury Village<br>
+                      fashion digital art exploration</span>
+                    <img
+                      alt="студия разработки интерактивных инсталляций в москве"
+                      width="Auto"
+                      loading="lazy"
+                      class="image-17 tablet_style"
+                      src="images/9e5fce129057059.616352b8a5882.webp" loading="lazy" width="Auto" sizes="(max-width: 479px) 100vw, (max-width: 991px) 45vw, (max-width: 1919px) 30vw, 581.9500122070312px" alt="интерактивная инсталляция заказать" srcset="images/9e5fce129057059.616352b8a5882-p-500.webp 500w, images/9e5fce129057059.616352b8a5882-p-800.webp 800w, images/9e5fce129057059.616352b8a5882-p-1080.webp 1080w, images/9e5fce129057059.616352b8a5882.webp 1200w">
+                    <!-- <script type="application/json" class="w-json">{"items": [{"url": "https://youtube.com/watch?v=Ee2FbJab0gM?si=tQZXw1kefI2zBX6d","originalUrl": "https://youtube.com/watch?v=Ee2FbJab0gM?si=tQZXw1kefI2zBX6d","width": 940,"height": 528,"thumbnailUrl": "https://i.ytimg.com/vi/Ee2FbJab0gM/hqdefault.jpg","html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FEe2FbJab0gM%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEe2FbJab0gM&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEe2FbJab0gM%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>","type": "video"}],"group": ""}</script> -->
+                  </a>
+                </div>
+                <div class="headers_box_01 talet_headers_box_multimedia">
+                  <h2 class="heading-2">Мультинишевая <br>адаптация</h2>
+                  <h3 class="heading-4">Гибкость решений для любых сфер бизнеса.</h3>
+                  <div class="text-block-2">Опыт работы с клиентами из бизнеса, образования, развлекательной сферы и социальных проектов, а так же изучение последних тенденций, позволяют находить уникальное решение для каждого проекта и обеспечить предельное достижение поставленных задач.</div>
+                </div>
+              </div>
+            </div>
+            <div class="right_blocks_01 tablet_right_blocks_02">
+              <div class="wrapper_r_02 tablet_wrapper_r_02">
+                <div class="top_blocks_wrapper_02 tablet_blocks_wrapper_02">
+                  <div class="w-layout-hflex bubbllls_flex_box_02"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент сайта студии разработки интерактивных инсталляций" class="image-2"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент сайта студии разработки иммерсивных инсталляций" class="image-3"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент сайта разработчиков интерактивных инсталляций" class="image-4"></div>
+                  <div id="w-node-d197b809-8e0c-20a4-e74a-350f64e2dd1f-f597d24c" class="text_top_r_02">Разработка кастомного ПО – ключ к созданию интерактивных и многоуровневых приложений, обеспечивающих глубокое погружение.</div>
+                </div>
+                <div class="mb_video_block-_multimedia mb_video_block_01"><img src="images/9e5fce129057059.616352b8a5882.webp" loading="lazy" sizes="100vw" srcset="images/9e5fce129057059.616352b8a5882-p-500.webp 500w, images/9e5fce129057059.616352b8a5882-p-800.webp 800w, images/9e5fce129057059.616352b8a5882-p-1080.webp 1080w, images/9e5fce129057059.616352b8a5882.webp 1200w" alt="изображение обложки видео про интерактивные инсталляции в бутике" class="mb_installation_dubai">
+                  <a data-fancybox data-src="https://vk.com/video_ext.php?oid=-34832376&id=456239091&hd=2" data-type="iframe" data-preload="false" class="lightbox-link-2 w-inline-block">
+                    <span class="player-play"></span>
+                    <span class="player-text">// Barvikha Luxury Village</span>
+                    <img
+                      alt="обложка видео разработчиков мультимедийных инсталляций"
+                      loading="lazy"
+                      class="mb_installation_dubai_video"
+                      sizes="(max-width: 479px) 96vw, 100vw"
+                      src="images/9e5fce129057059.616352b8a5882.webp"
+                      srcset="images/9e5fce129057059.616352b8a5882-p-500.webp 500w, images/9e5fce129057059.616352b8a5882-p-800.webp 800w, images/9e5fce129057059.616352b8a5882-p-1080.webp 1080w, images/9e5fce129057059.616352b8a5882.webp 1200w">
+                    <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                  </a></div>
+                <div class="image_box_02 shape clipped02"><img src="images/interactive_instalation_burviha_immersive-1.webp" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 991px) 97vw, (max-width: 1919px) 63vw, 1208.449951171875px" srcset="images/interactive_instalation_burviha_immersive-1-p-500.webp 500w, images/interactive_instalation_burviha_immersive-1-p-800.webp 800w, images/interactive_instalation_burviha_immersive-1-p-1080.webp 1080w, images/interactive_instalation_burviha_immersive-1.webp 1200w" alt="обложка видео на сайте разработчиков мультимедийных инсталляций" class="interacrive_installation_img_02"></div>
+              </div>
+              <div class="div-block-13">
+                <div class="tablet_text_down_box_02">
+                  <div class="text_block_burviha_bottom02">При создании интерактивных инсталляций используется высококачественное оборудование для взаимодействия при помощи жестов, движений.</div>
+                  <div class="tablet_text_block_burviha_bottom02">Разработка кастомного ПО – ключ к созданию интерактивных и многоуровневых приложений, обеспечивающих глубокое погружение.</div><img src="images/arrow_next.svg" loading="lazy" data-w-id="4894121b-1fc6-0ab4-4036-686d2c81d59c" alt="декоративный элемент на сайте разработчиков интерактивныз инсталляций в России" class="image-14">
+                </div>
+              </div>
+              <div class="clip_path_img_02 w-embed">
+                <style>
+.svg02 {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.clipped02 {
+  background-size: cover;
+  -webkit-clip-path: url(#my-clip-path02);
+  clip-path: url(#my-clip-path02);
+}
+</style>
+                <svg class="svg02">
+                  <clippath id="my-clip-path02" clippathunits="objectBoundingBox">
+                    <path d="M0.088,0.002 H0.478 c0.013,0,0.023,0.03,0.023,0.066 v0.688 c0,0.018,-0.003,0.035,-0.007,0.048 l-0.065,0.179 c-0.004,0.012,-0.01,0.018,-0.016,0.018 H0.024 c-0.013,0,-0.023,-0.03,-0.023,-0.066 V0.247 c0,-0.018,0.003,-0.035,0.007,-0.048 L0.073,0.02 C0.077,0.008,0.082,0.002,0.088,0.002 M0.509,0.804 c-0.005,-0.013,-0.007,-0.03,-0.007,-0.048 c0,0,0,0,0,0 V0.068 c0,-0.037,0.01,-0.066,0.023,-0.066 h0.388 c0.006,0,0.012,0.006,0.016,0.018 l0.065,0.179 c0.005,0.013,0.007,0.03,0.007,0.048 V0.935 c0,0.037,-0.01,0.066,-0.023,0.066 H0.589 c-0.006,0,-0.012,-0.006,-0.016,-0.018 L0.509,0.804"></path>
+                  </clippath>
+                </svg>
+              </div>
+              <div class="tablet_icons_02"><img src="images/arrow_icon_down.svg" loading="lazy" data-w-id="3b13ce95-9e91-955a-8c0b-e3e53a65804f" alt="декоративный элемент на сайте разработчиков иммерсивных инсталляций" class="image-13">
+                <div class="w-layout-hflex mob_bubbls_flex_box_01"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="" class="image-2"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте разработчиков интерактивных инсталляций dctouch" class="image-3"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте разработчиков интерактивных и иммерасивных инсталлиций" class="image-4"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item" id="three">
+          <div class="item_wrap mob_item_wrap_02">
+            <div class="left_blocks_01 mob_left_blocks_02">
+              <div class="left_box_wrapper_01 mob_left_box_wrapper_02">
+                <div class="video_block">
+                  <a data-fancybox data-src="https://vk.com/video_ext.php?oid=-34832376&id=456239097&hd=2" data-type="iframe" data-preload="false" class="lightbox-link w-inline-block">
+                    <span class="player-play"></span>
+                    <span class="player-text">// SS 2022<br>
+                      Tsum fashion show</span>
+                    <img
+                      alt="облока видео мультемидийной разработки контента для фэшн шоу"
+                      width="Auto"
+                      loading="lazy"
+                      class="image-17 tablet_style"
+                      src="images/3.webp"
+                      sizes="(max-width: 479px) 100vw, (max-width: 991px) 45vw, (max-width: 1919px) 30vw, 581.9375px"
+                      srcset="images/3-p-500.webp 500w,
+                      images/3-p-800.webp 800w,
+                      images/3-p-1080.webp 1080w,
+                      images/3.webp 1600w,
+                      images/3.webp 2000w,
+                      images/3.webp 2014w">
+                    <!-- <script type="application/json" class="w-json">{"items": [{"url": "https://youtube.com/watch?v=Ee2FbJab0gM?si=tQZXw1kefI2zBX6d","originalUrl": "https://youtube.com/watch?v=Ee2FbJab0gM?si=tQZXw1kefI2zBX6d","width": 940,"height": 528,"thumbnailUrl": "https://i.ytimg.com/vi/Ee2FbJab0gM/hqdefault.jpg","html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FEe2FbJab0gM%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEe2FbJab0gM&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEe2FbJab0gM%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>","type": "video"}],"group": ""}</script> -->
+                  </a>
+                </div>
+                <div class="headers_box_01 tablet_headers_box_01">
+                  <h2 class="heading-2">Цифровой арт<br>в fashion индустрии</h2>
+                  <h3 class="heading-4">Творческий симбиоз.</h3>
+                  <div class="text-block-2">Комплексное техническое оснащение включает в себя: высококачественные мультимединое оборудование, интерактивный сторитейлинговый / арт контент, контрольные системы управления элементами и автоматизацию.</div>
+                </div>
+              </div>
+            </div>
+            <div class="right_blocks_01 tablet_right_blocks_02">
+              <div class="wrapper_r_02 tablet_wrapper_r_02">
+                <div class="top_blocks_wrapper_02 tablet_blocks_wrapper_02">
+                  <div class="w-layout-hflex bubbllls_flex_box_02"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент сайта разботчиков иммерсивных инсталляций" class="image-2"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент сайта разработчиков интерактивных инсталляций dctouc" class="image-3"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент сайта разработчиков интерактивных инсталляций" class="image-4"></div>
+                  <div id="w-node-_6b13efbd-3ad0-c6b0-d426-3ca65dc114f6-f597d24c" class="text_top_r_02">Обеспечение стабильной работы <br>во время мероприятия, делает пространство более концептуальным, автономным и профессиональным.</div>
+                </div>
+                <div class="mb_video_block-_multimedia mb_video_block_01">
+                    <img src="images/3.webp" loading="lazy" sizes="100vw" srcset="images/3-p-500.webp 500w,
+                  images/3-p-800.webp 800w,
+                  images/3-p-1080.webp 1080w,
+                  images/3.webp 1600w,
+                  images/3.webp 2000w,
+                  images/3.webp 2014w" alt="обложка видео интерактивного медиа фасада для магазина" class="mb_installation_dubai">
+                  <a data-fancybox data-src="https://vk.com/video_ext.php?oid=-34832376&id=456239097&hd=2" data-type="iframe" data-preload="false" class="lightbox-link-2 w-inline-block">
+                    <span class="player-play"></span>
+                    <span class="player-text">// SS 2022</span>
+                    <img
+                      alt="обложка видео мультимедийной разработки ЦУМ 2022"
+                      loading="lazy"
+                      class="mb_installation_dubai_video"
+                      sizes="(max-width: 479px) 96vw, 100vw"
+                      src="images/3.webp"
+                      >
+                    <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                  </a></div>
+                <div class="image_box_02 shape clipped02"><img src="images/4.webp" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 991px) 97vw, (max-width: 1919px) 63vw" srcset="images/4-p-500.webp 500w, images/4-p-800.webp 800w, images/4-p-1080.webp 1080w, images/4-p-1080.webp 1600w, images/4.webp 2000w, images/4.webp 2880w" alt="изображение интерактивной и мультимедийной инсталляции сделанной на заказ москва" class="interacrive_installation_img_03"></div>
+              </div>
+              <div class="div-block-13">
+                <div class="text_down_box_03"><img src="images/arrow_next.svg" loading="lazy" alt="декоративный указатель на сайте разработчиков интерактивных инсталляций Россия" class="tablet_arrow_icon"></div>
+                <div class="tablet_text_down_box_02">
+                  <div class="text_block_burviha_bottom02">Обеспечение стабильной работы во время мероприятия, делает пространство более концептуальным, автономным и профессиональным.</div><img src="images/arrow_next.svg" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" data-w-id="96e7ff71-c0eb-f083-e6f7-324277914c2c" alt="декоративный элемент на сайте разработчиков мультимедийных витрин" class="arrow_bubble_02">
+                </div>
+                <div class="tablet_icons_02"><img src="images/arrow_icon_down.svg" loading="lazy" data-w-id="5bf4f10d-ccc4-818b-c2a1-5c3ccba41cca" alt="декоративный элемент на сайте разработчиков мультимедийных инсталляций" class="image-13">
+                  <div class="w-layout-hflex mob_bubbls_flex_box_01"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте разработчиков интерактивных инсталляций dctouch" class="image-2"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте разработчиков интерактивных инсталляций СПБ" class="image-3"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте разработчиков интерактивных инсталляций под ключ" class="image-4"></div>
+                </div>
+              </div>
+              <div class="clip_path_img_02 w-embed">
+                <style>
+.svg02 {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.clipped02 {
+  background-size: cover;
+  -webkit-clip-path: url(#my-clip-path02);
+  clip-path: url(#my-clip-path02);
+}
+</style>
+                <svg class="svg02">
+                  <clippath id="my-clip-path02" clippathunits="objectBoundingBox">
+                    <path d="M0.088,0.002 H0.478 c0.013,0,0.023,0.03,0.023,0.066 v0.688 c0,0.018,-0.003,0.035,-0.007,0.048 l-0.065,0.179 c-0.004,0.012,-0.01,0.018,-0.016,0.018 H0.024 c-0.013,0,-0.023,-0.03,-0.023,-0.066 V0.247 c0,-0.018,0.003,-0.035,0.007,-0.048 L0.073,0.02 C0.077,0.008,0.082,0.002,0.088,0.002 M0.509,0.804 c-0.005,-0.013,-0.007,-0.03,-0.007,-0.048 c0,0,0,0,0,0 V0.068 c0,-0.037,0.01,-0.066,0.023,-0.066 h0.388 c0.006,0,0.012,0.006,0.016,0.018 l0.065,0.179 c0.005,0.013,0.007,0.03,0.007,0.048 V0.935 c0,0.037,-0.01,0.066,-0.023,0.066 H0.589 c-0.006,0,-0.012,-0.006,-0.016,-0.018 L0.509,0.804"></path>
+                  </clippath>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item" id="four">
+          <div class="item_wrap tablet_item_wrap_04">
+            <div class="right_blocks_01">
+              <div class="arrow_box">
+                <div class="w-layout-hflex bubbls_flex_box_01"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте разработчиков интерактивных инсталляций для музеев" class="image-2"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте интерактивных инсталляций для галерей" class="image-3"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте разработчиков мультимедийных инсталляций для музеев" class="image-4"></div>
+                <div class="image_box01 shape clipped">
+                  <div class="text-block">Интерактивные медиа фасады — тип цифрового полотна, которое используется для взаимодействия бренда с покупателями. Решение может состоять из встроенных модулей и комплекта интерактивных датчиков.</div><img src="images/vlcsnap-2022-12-22-15h05m18s598.webp" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 991px) 45vw, (max-width: 1919px) 63vw, 1208.449951171875px" srcset="images/vlcsnap-2022-12-22-15h05m18s598-p-500.webp 500w, images/vlcsnap-2022-12-22-15h05m18s598-p-800.webp 800w, images/vlcsnap-2022-12-22-15h05m18s598-p-1080.webp 1080w, images/vlcsnap-2022-12-22-15h05m18s598-p-1600.webp 1600w, images/vlcsnap-2022-12-22-15h05m18s598.webp 1920w" alt="изображение мультимедийного фасада на заказ" class="interacrive_installation_img_04">
+                  <div class="tags_box_01">
+                    <div class="text-block-tags">Интерактив</div>
+                    <div class="text-block-tags">Арт Контент</div>
+                    <div class="text-block-tags">Оборудование</div>
+                  </div>
+                </div>
+              </div>
+              <div class="clip_path_img w-embed">
+                <style>
+.svg {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.clipped {
+  background-size: cover;
+  -webkit-clip-path: url(#my-clip-path);
+  clip-path: url(#my-clip-path);
+}
+</style>
+                <svg class="svg">
+                  <clippath id="my-clip-path" clippathunits="objectBoundingBox">
+                    <path d="M0.02,0.001 h0.961 c0.011,0,0.019,0.012,0.019,0.026 v0.461 c0,0.008,-0.003,0.016,-0.008,0.021 l-0.487,0.487 c-0.003,0.003,-0.007,0.005,-0.012,0.005 H0.02 c-0.011,0,-0.019,-0.012,-0.019,-0.026 V0.027 C0,0.012,0.009,0.001,0.02,0.001"></path>
+                  </clippath>
+                </svg>
+              </div>
+              <div class="text-block-8">Интерактивные медиа фасады — тип цифрового полотна, которое используется для взаимодействия бренда с покупателями. Решение может состоять из встроенных модулей и комплекта интерактивных датчиков.</div>
+            </div>
+            <div class="left_blocks_01">
+              <div class="left_box_wrapper_01 tablet_left_box_wrapper_04">
+                <div class="video_block">
+                  <a data-fancybox data-src="https://vk.com/video_ext.php?oid=-34832376&id=456239092&hd=2" data-type="iframe" data-preload="false" class="lightbox-link w-inline-block">
+                    <span class="player-play"></span>
+                    <span class="player-text">// Mercury barvikha luxury village</span>
+                    <img
+                      alt="обложка видео мультимедийной витрины на заказ"
+                      width="Auto"
+                      loading="lazy"
+                      class="image-17 tablet_style"
+                      src="images/6.webp"
+                      sizes="(max-width: 479px) 100vw, (max-width: 991px) 45vw, (max-width: 1919px) 30vw, 581.9375px"
+                      srcset="images/6-p-500.webp 500w,
+                      images/6-p-800.webp 800w,
+                      images/6-p-1080.webp 1080w,
+                      images/6-p-1600.webp 1600w,
+                      images/6.webp 2000w,
+                      images/6.webp 2014w">
+                    <!-- <script type="application/json" class="w-json">{"items": [{"url": "https://youtube.com/watch?v=Ee2FbJab0gM?si=tQZXw1kefI2zBX6d","originalUrl": "https://youtube.com/watch?v=Ee2FbJab0gM?si=tQZXw1kefI2zBX6d","width": 940,"height": 528,"thumbnailUrl": "https://i.ytimg.com/vi/Ee2FbJab0gM/hqdefault.jpg","html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FEe2FbJab0gM%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEe2FbJab0gM&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEe2FbJab0gM%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>","type": "video"}],"group": ""}</script> -->
+                  </a>
+                </div>
+                <div class="headers_box_01 tablet_headers_box_01">
+                  <h2 class="heading-2_2">Медиа решения<br>и ритейл</h2>
+                  <h3 class="heading-4">Интерактивные арт объекты <br>и медиафасады с цифровым контентом.</h3>
+                  <div class="text-block-3">Полотно отображает различные типы медиа контента, позволяя клиентам взаимодействовать с брэндом при помощи голоса, жестов или внешнего устройства.</div>
+                </div><img src="images/arrow_next.svg" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" data-w-id="88c0b781-595f-d333-afbc-f473147a4cf4" alt="декоративный элемент разработиков интерактивных инсталляций на заказ россия" class="image-10">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item tablet_item" id="five">
+          <div class="tablet_item_wrap_media">
+            <div class="right_blocks_01 tablet_right_blocks_media">
+              <div class="wrapper_r_02 tablet_wrapper_r_02_marg">
+                <div class="top_blocks_wrapper_02">
+                  <div class="w-layout-hflex bubbllls_flex_box_02"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент сайта разработчиков интерактивных инсталляций для улицы на заказ россия" class="image-2"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент сайта разработчиков мультимейных инсталляций для улицы на заказ россия" class="image-3"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент сайта разработчиков иммерсивных инсталляций для улицы на заказ россия" class="image-4"></div>
+                  <div id="w-node-de6f9c83-5bb5-588a-0e62-213423dfb26c-f597d24c" class="text_top_r_02">Конструкции могут быть спроектированы так, чтобы выдерживать различные экстремальные погодные условия <br>и иметь высокий уровень яркости для обеспечения видимости под прямыми солнечными лучами.</div>
+                </div>
+                <div class="mb_video_block-_multimedia mb_video_block_01"><img src="images/6.webp" loading="lazy" sizes="100vw" srcset="images/6-p-500.webp 500w,
+                  images/6-p-800.webp 800w,
+                  images/6-p-1080.webp 1080w,
+                  images/6-p-1060.webp 1600w,
+                  images/6-p-2000.webp 2000w,
+                  images/6 2014w alt="обложка видео мультимедийной инсталляции для улицы сделанной на заказ в москве" class="mb_installation_dubai">
+                  <a data-fancybox data-src="https://vk.com/video_ext.php?oid=-34832376&id=456239092&hd=2" data-type="iframe" data-preload="false" class="lightbox-link-2 w-inline-block">
+                    <span class="player-play"></span>
+                    <span class="player-text">// Mercury barvikha luxury village</span>
+                    <img
+                      alt="обложка видео сделанный на заказ для бутика бренда Меркури"
+                      loading="lazy"
+                      class="mb_installation_dubai_video"
+                      sizes="(max-width: 479px) 96vw, 100vw"
+                      src="images/6.webp"
+                      srcset="images/6-p-500.webp 500w,
+                      images/6-p-800.webp 800w,
+                      images/6-p-1080.webp 1080w,
+                      images/6-p-1600.webp 1600w,
+                      images/6-p-2000.webp 2000w,
+                      images/6.webp 2014w">
+                    <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                  </a></div>
+                  <div class="mb_video_block-_multimedia mb_video_block_01"><img src="images/7.webp" loading="lazy" sizes="100vw" srcset="images/7-p-500.webp 500w, images/7.webp 800w, images/7.webp 1080w, images/7.webp 1600w, images/7.webp 2000w, images/7.webp 2014w" alt="изображение кинетической инсталляции в бутике" class="mb_installation_dubai">
+                    <a data-fancybox data-src="https://vk.com/video_ext.php?oid=-34832376&id=456239103&hd=2" data-type="iframe" data-preload="false" class="lightbox-link-2 w-inline-block">
+                      <span class="player-play"></span>
+                      <span class="player-text">// Инсталляция BURBERRY<br> ГУМ МОСКВА</span>
+                      <img
+                        alt="иммерсивная инсталляция в торговом центре ГУМ Москва"
+                        loading="lazy"
+                        class="mb_installation_dubai_video"
+                        sizes="(max-width: 479px) 96vw, 100vw"
+                        src="images/7.webp"
+                        srcset="images/7-p-500.webp 500w,
+                        images/7.webp 800w,
+                        images/7.webp 1080w,
+                        images/7.webp 1600w,
+                        images/7.webp 2000w,
+                        images/7.webp 2014w">
+                      <script type="application/json" class="w-json">{
+    "items": [],
+    "group": ""
+  }</script>
+                    </a></div>
+                <div class="image_box_02 shape clipped02"><img src="images/1.webp" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 991px) 97vw, (max-width: 1919px) 63vw, 1208.449951171875px" srcset="images/1-p-500.webp 500w, images/1-p-800.webp 800w, images/1.webp 1058w" alt="иммерсивная инсталляция на заказ Москва" class="interacrive_installation_img_05"></div>
+                <div class="tablet_text_down_box_media">
+                  <div class="text_block_burviha_bottom02">При создании интерактивных инсталляций используется высококачественное оборудование для взаимодействия при помощи жестов, движений.</div><img src="images/arrow_next.svg" loading="lazy" alt="декоративный элемент на сайте разработчиков иммерсивных инсталляций" class="arrow_bubble_02">
+                </div>
+              </div>
+            </div>
+            <div class="left_blocks_01 tablet_left_blocks_01">
+              <div class="left_box_wrapper_01 tablet_left_box_wrapper_media">
+                <div class="video_block">
+                  <a data-fancybox data-src="https://vk.com/video_ext.php?oid=-34832376&id=456239103&hash=300a78241a209a38" data-type="iframe" data-preload="false" class="lightbox-link w-inline-block">
+                    <span class="player-play"></span>
+                    <span class="player-text">// Инсталляция BURBERRY  <br>
+                    ГУМ МОСКВА</span>
+                    <img
+                      alt="обложка видео плеера мультемидийной инсталляции для BURBERRY Москва"
+                      width="Auto"
+                      loading="lazy"
+                      class="image-17 tablet_style"
+                      src="images/7.webp"
+                      sizes="(max-width: 479px) 100vw, (max-width: 991px) 45vw, (max-width: 1919px) 30vw, 581.9375px"
+                      srcset="images/7-p-500.webp 500w,
+                      images/7.webp 800w,
+                      images/7.webp 1080w,
+                      images/7.webp 1600w,
+                      images/7.webp 2000w,
+                      images/7.webp 2014w">
+                    <!-- <script type="application/json" class="w-json">{"items": [{"url": "https://youtube.com/watch?v=Ee2FbJab0gM?si=tQZXw1kefI2zBX6d","originalUrl": "https://youtube.com/watch?v=Ee2FbJab0gM?si=tQZXw1kefI2zBX6d","width": 940,"height": 528,"thumbnailUrl": "https://i.ytimg.com/vi/Ee2FbJab0gM/hqdefault.jpg","html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FEe2FbJab0gM%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEe2FbJab0gM&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEe2FbJab0gM%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>","type": "video"}],"group": ""}</script> -->
+                  </a>
+                </div>
+                <div class="headers_box_01 tablet_headers_box_media mb_headers_box_media">
+                  <h3 class="heading-4">Создание арт-объектов.</h3>
+                  <div class="text-block-3_last">Использование концептуальных решений оказывает эмоциональное воздействие на целевых потребителей, формирует узнаваемость, расширяет архитектурную целостность.</div>
+                </div><img src="images/arrow_next.svg" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" data-w-id="4abd4b56-0a50-74d2-c775-d5aa78f0617f" alt="анимированная стрелка для улучшения навигации на сайте разработчиков интерактивных инсталляций на заказ" class="image-10">
+              </div>
+            </div>
+            <div class="tablet_icons_02"><img src="images/arrow_icon_down.svg" loading="lazy" data-w-id="8f41c464-f491-6011-2c29-5c24ffdd6d0d" alt="интерактивный элемент на сайте разработчиков иммерсивных инсталляций под ключ" class="image-13">
+              <div class="w-layout-hflex mob_bubbls_flex_box_01"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте разработчиков интерактивных инсталляций" class="image-2"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте разработчиков интерактивной галереи" class="image-3"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элеменет на сайте разработчиков мультимедийного контента" class="image-4"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item tablet_item_museum mb_item_museum" id="six">
+          <div class="item_wrap tablet_item_wrap_04">
+            <div class="right_blocks_01">
+              <div class="arrow_box">
+                <div class="w-layout-hflex bubbls_flex_box_01"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте разработчиков иммерсивных выставок" class="image-2"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте где можно заказать интерактивную инсталляцию" class="image-3"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте иммерсивных инсталляций под ключ СПБ" class="image-4"></div>
+                <div class="video_block_big shape clipped">
+                  <a data-fancybox data-src="https://vk.com/video_ext.php?oid=-34832376&id=456239104&hash=1d694802b0d3f3b6" data-type="iframe" data-preload="false" class="lightbox-link w-inline-block m-20">
+                    <span class="player-play"></span>
+                    <img class="shape clipped interacrive_installation_img_04"
+                      alt="обложка видео разработчиков интерактивных музеев"
+                      width="Auto"
+                      loading="lazy"
+                      class="image-17 tablet_style"
+                      src="images/5.webp"
+                      sizes="(max-width: 479px) 100vw, (max-width: 991px) 45vw, (max-width: 1919px) 30vw, 581.9375px"
+                      srcset="images/5-p-500.webp 500w,
+                      images/5-p-800.webp 800w,
+                      images/5-p-1080.webp 1080w,
+                      images/5.webp 1600w,
+                      images/5.webp 2000w,
+                      images/5.webp 2014w">
+                      <div class="text-block">Разработка иммерсивных музейных проектов, с акцентом на конкретную специфику аудитории, в сочетании с технологическими подходами, используемыми в индивидуальных программных и аппаратных решениях для удовлетворения конкретных потребностей проекта.</div>
+                      <div class="tags_box_01">
+                        <div class="text-block-tags">Интерактив</div>
+                        <div class="text-block-tags">Арт Контент</div>
+                        <div class="text-block-tags">Оборудование</div>
+                      </div>
+</a>
+
+                </div>
+              </div>
+              <div class="clip_path_img w-embed">
+                <style>
+.svg {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.clipped {
+  background-size: cover;
+  -webkit-clip-path: url(#my-clip-path);
+  clip-path: url(#my-clip-path);
+}
+</style>
+                <svg class="svg">
+                  <clippath id="my-clip-path" clippathunits="objectBoundingBox">
+                    <path d="M0.02,0.001 h0.961 c0.011,0,0.019,0.012,0.019,0.026 v0.461 c0,0.008,-0.003,0.016,-0.008,0.021 l-0.487,0.487 c-0.003,0.003,-0.007,0.005,-0.012,0.005 H0.02 c-0.011,0,-0.019,-0.012,-0.019,-0.026 V0.027 C0,0.012,0.009,0.001,0.02,0.001"></path>
+                  </clippath>
+                </svg>
+              </div>
+                   <div class="mb_video_block-_multimedia mb_video_block_01">
+                  <img
+                    alt="обложка для видео разработчиков иммерсивных инсталляций для музеев под ключ мобильная версия сайта"
+                    loading="lazy"
+                    class="mb_installation_dubai_video"
+                    sizes="(max-width: 479px) 96vw, 100vw"
+                    src="images/17_razrabotka_interactivnih_installyacii.webp">
+
+                  </div>
+              <div class="headers_box_01 tablet_headers_box_media">
+                <div class="tablet_text-block_museum">Разработка иммерсивных музейных проектов, с акцентом на конкретную специфику аудитории, в сочетании с технологическими подходами, используемыми в индивидуальных программных и аппаратных решениях для удовлетворения конкретных потребностей проекта.</div>
+              </div>
+              <div class="video_block mb_video_block_visible tablet_video_block_hide">
+                <span class="player-text">// Mojjoker cube ue5 matrix</span>
+                <img src="images/17_razrabotka_interactivnih_installyacii.webp" loading="lazy" sizes="100vw" srcset="images/17_razrabotka_interactivnih_installyacii-p-500.webp 500w, images/17_razrabotka_interactivnih_installyacii-p-800.webp 800w, images/17_razrabotka_interactivnih_installyacii-p-1080.webp 1080w, images/17_razrabotka_interactivnih_installyacii.webp 1354w" alt="мультимедийная разработка арт контента на заказ" class="image-5 tablet_video_block_hide"></div>
+            </div>
+            <div class="tablet_left_blocks_museum">
+              <div class="left_box_wrapper_01 tablet_left_blocks_wrapper_museum">
+                <div class="video_block mb_video_block"><img src="images/17_razrabotka_interactivnih_installyacii.webp" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 45vw, (max-width: 1919px) 30vw, 581.9375px" srcset="images/17_razrabotka_interactivnih_installyacii-p-500.webp 500w, images/17_razrabotka_interactivnih_installyacii-p-800.webp 800w, images/17_razrabotka_interactivnih_installyacii-p-1080.webp 1080w, images/17_razrabotka_interactivnih_installyacii.webp 1354w" alt="разработка интерактивных систем на заказ" class="image-5"></div>
+                <div class="headers_box_01 mb_headers_box_01">
+                  <h2 class="heading-2_2">Выставки и музеи</h2>
+                  <h3 class="heading-4">Иммерсивные, генеративные решения.</h3>
+                  <div class="text-block-3">Глубокий опыт в реализации архитектурных задач позволяет обеспечить комплексную интеграцию как в существующие системы, так и выстраивание систем с нулевой стадии.</div>
+                </div><img src="images/arrow_next.svg" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" data-w-id="46077a1f-6ccc-e1d7-ac9e-40d9c515e54c" alt="навигационный элемент на сайте разработчиков интерактивных систем под ключ" class="image-10">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tablet_icons_02"><img src="images/arrow_icon_down.svg" loading="lazy" data-w-id="5e52e061-6097-c8b0-b120-e4e3cdfc3a5f" alt="навигационная подсказка на сайте разработчиков интерактивных инсталляций купить" class="image-13">
+          <div class="w-layout-hflex mob_bubbls_flex_box_01"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте разработчиков интерактивных инсталляций" class="image-2"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте разработчиков иммерсивных инталляций" class="image-3"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте разработчиков арт мультимедиа" class="image-4"></div>
+        </div>
+        <div class="item tablet_item_museum" id="seven">
+          <div class="item_wrap tablet_item_wrap_04">
+            <div class="right_blocks_01">
+              <div class="arrow_box">
+                <div class="w-layout-hflex bubbls_flex_box_01"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте создателей арт контента в москве" class="image-2"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте создателей арт контента на заказ россия" class="image-3"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте создателей арт контента для маркетинга" class="image-4"></div>
+                <div class="image_box01 shape clipped">
+                  <div class="text-block">Цифровой арт оказывает на зрителей широкий спектр эмоционального воздействия, в зависимости от содержания и стиля.</div><img src="images/8.webp" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 991px) 45vw, (max-width: 1919px) 63vw, 1208.4375px" srcset="images/8-p-500.webp 500w, images/8-p-800.webp 800w, images/8-p-1080.webp 1080w, images/8.webp 1211w" alt="обложка видео разработки арт контента" class="interacrive_installation_img_04">
+                  <div class="tags_box_01">
+                    <div class="text-block-tags">Арт Контент</div>
+                  </div>
+                </div>
+              </div>
+              <div class="clip_path_img w-embed">
+                <style>
+.svg {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.clipped {
+  background-size: cover;
+  -webkit-clip-path: url(#my-clip-path);
+  clip-path: url(#my-clip-path);
+}
+</style>
+                <svg class="svg">
+                  <clippath id="my-clip-path" clippathunits="objectBoundingBox">
+                    <path d="M0.02,0.001 h0.961 c0.011,0,0.019,0.012,0.019,0.026 v0.461 c0,0.008,-0.003,0.016,-0.008,0.021 l-0.487,0.487 c-0.003,0.003,-0.007,0.005,-0.012,0.005 H0.02 c-0.011,0,-0.019,-0.012,-0.019,-0.026 V0.027 C0,0.012,0.009,0.001,0.02,0.001"></path>
+                  </clippath>
+                </svg>
+              </div>
+              <div class="tablet_text-block_museum">Цифровой арт оказывает на зрителей широкий спектр эмоционального воздействия, в зависимости от содержания и стиля.</div>
+             
+            </div>
+            <div class="left_blocks_01">
+              <div class="left_box_wrapper_01 tablet_left_blocks_wrapper_museum">
+                <div class="video_block">
+                  <a data-fancybox data-src="https://vk.com/video_ext.php?oid=-34832376&id=456239101&hash=5f38985d7b6aa940" data-type="iframe" data-preload="false" class="lightbox-link w-inline-block">
+                    <span class="player-play"></span>
+                    <span class="player-text">// DNA`s dance in zygote</span>
+                    <img
+                      alt="обложка видео разработки арт контента EU5"
+                      width="Auto"
+                      loading="lazy"
+                      class="image-17 tablet_style"
+                      src="images/2024-02-02-16.43.51.webp"
+                      sizes="(max-width: 479px) 100vw, (max-width: 991px) 45vw, (max-width: 1919px) 30vw, 581.9375px"
+                      srcset="images/2024-02-02-16.43.51-p-500.webp 500w,
+                      images/2024-02-02-16.43.51-p-800.webp 800w,
+                      images/2024-02-02-16.43.51-p-1080.webp 1080w,
+                      images/2024-02-02-16.43.51-p-1600.webp 1600w,
+                      images/2024-02-02-16.43.51.webp 2000w,
+                      images/2024-02-02-16.43.51.webp 2014w">
+                    <!-- <script type="application/json" class="w-json">{"items": [{"url": "https://youtube.com/watch?v=Ee2FbJab0gM?si=tQZXw1kefI2zBX6d","originalUrl": "https://youtube.com/watch?v=Ee2FbJab0gM?si=tQZXw1kefI2zBX6d","width": 940,"height": 528,"thumbnailUrl": "https://i.ytimg.com/vi/Ee2FbJab0gM/hqdefault.jpg","html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FEe2FbJab0gM%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEe2FbJab0gM&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEe2FbJab0gM%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>","type": "video"}],"group": ""}</script> -->
+                  </a>
+                </div>
+                <div class="headers_box_01">
+                  <h2 class="heading-2_2">Создание <br>арт-контента</h2>
+                  <h3 class="heading-4">Цифровое искусство.</h3>
+                  <div class="text-block-3 mb_text_block_3">Разработка цифрового художественного контента включает использование цифровых инструментов и программного кода для создания и гибкого управления различными формами, мыслями и идеями.</div>
+                </div><img src="images/arrow_next.svg" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" data-w-id="4564aa2e-7436-acaa-695b-ad9f86ac2a0f" alt="навигационный элемент на сайте разработки арт и мультимедиа контента" class="image-10">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item" id="eight">
+          <div class="item_wrap tablet_item_wrap_art">
+            <div class="right_blocks_05">
+              <div class="wrapper_r_02">
+                <div class="top_blocks_wrapper_02">
+                  <div class="w-layout-hflex bubbllls_flex_box_02"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте разработки арт контента под ключ" class="image-2"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте разработки иммерсивного арт контента" class="image-3"><img src="images/ball_ineractive_installation.svg" loading="lazy" alt="декоративный элемент на сайте разработчиков интерактивного мультимедиа контента" class="image-4"></div>
+                  <div id="w-node-_9c0cf559-0b82-3088-6ebb-d0700e9dac24-f597d24c" class="text_top_r_02">Цифровой арт контент способствует улучшению визуального образа бренда, привлекает внимание аудитории и создает уникальный и запоминающийся опыт взаимодействия.</div>
+                </div>
+                <div class="mb_video_block-_multimedia mb_video_block_01"><img src="images/2024-02-02-16.43.51.webp" loading="lazy" sizes="100vw" srcset="images/2024-02-02-16.43.51-p-500.webp 500w,
+                  images/2024-02-02-16.43.51-p-800.webp 800w,
+                  images/2024-02-02-16.43.51-p-1080.webp 1080w,
+                  images/2024-02-02-16.43.51-p-1600.webp 1600w,
+                  images/2024-02-02-16.43.51.webp 2000w,
+                  images/2024-02-02-16.43.51.webp 2014w" alt="видео обложка разработанного арт контента пример" class="mb_installation_dubai">
+                  <a data-fancybox data-src="https://vk.com/video_ext.php?oid=-34832376&id=456239101&hd=2" data-type="iframe" data-preload="false" class="lightbox-link-2 w-inline-block">
+                    <span class="player-play"></span>
+                    <span class="player-text">// DNA`s dance in zygote</span>
+                    <img
+                      alt="видео обложка проекта разработки арт контента для галерии"
+                      loading="lazy"
+                      class="mb_installation_dubai_video"
+                      sizes="(max-width: 479px) 96vw, 100vw"
+                      src="images/2024-02-02-16.43.51.webp"
+                      srcset="images\2024-02-02-16.43.51-p-500.webp 500w,
+                      images/2024-02-02-16.43.51-p-800.webp 800w,
+                      images/2024-02-02-16.43.51-p-1080.webp 1080w,
+                      images/2024-02-02-16.43.51-p-1600.webp 1600w,
+                      images/2024-02-02-16.43.51.webp 2000w,
+                      images/2024-02-02-16.43.51.webp 2014w">
+                    <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                  </a></div>
+                  <div class="mb_video_block-_multimedia mb_video_block_01"><img src="images/9.webp" loading="lazy" sizes="100vw" srcset="images/9-p-500.webp 500w,
+                    images/9-p-800.webp 800w,
+                    images/9-p-1080.webp 1080w,
+                    images/9.webp 1600w,
+                    images/9.webp 2000w,
+                    images/9.webp 2014w" alt="видео разработка мультимедиа контента для галерии EU5" class="mb_installation_dubai">
+                    <a data-fancybox data-src="https://vk.com/video_ext.php?oid=-34832376&id=456239100&hd=2" data-type="iframe" data-preload="false" class="lightbox-link-2 w-inline-block">
+                      <span class="player-play"></span>
+                    <span class="player-text">// Mojjoker cube ue5 matrix</span>
+                      <img
+                        alt="разработка мультимедиа контента для бренда Mojjoker"
+                        loading="lazy"
+                        class="mb_installation_dubai_video"
+                        sizes="(max-width: 479px) 96vw, 100vw"
+                        src="images/9.webp"
+                        srcset="images/9-p-500.webp 500w,
+                      images/9-p-800.webp 800w,
+                      images/9-p-1080.webp 1080w,
+                      images/9.webp 1600w,
+                      images/9.webp 2000w,
+                      images/9.webp 2014w">
+                      <script type="application/json" class="w-json">{
+    "items": [],
+    "group": ""
+  }</script>
+                    </a></div>
+                <div class="image_box_02 shape clipped02"><img src="images/2024-02-02-16.33.11.webp" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 991px) 97vw, (max-width: 1919px) 63vw, 1208.4375px" srcset="images/2024-02-02-16.33.11-p-500.webp 500w, images/2024-02-02-16.33.11.webp 828w" alt="" class="interacrive_installation_img_06"></div>
+              </div>
+            </div>
+            <div class="tablet_text_down_box_media">
+              <div class="text_block_burviha_bottom02">Цифровой арт контент способствует улучшению визуального образа бренда, привлекает внимание аудитории и создает уникальный и запоминающийся опыт взаимодействия.</div><img src="images/arrow_next.svg" loading="lazy" alt="навигационный указатель на сайте разработчиков арт контента" class="arrow_bubble_02">
+            </div>
+            <div class="left_blocks_01 tablet_left_blocks_art_l">
+              <div class="left_box_wrapper_01 tablet_left_box_wrapper_art">
+                <div class="video_block">
+                  <a data-fancybox data-src="https://vk.com/video_ext.php?oid=-34832376&id=456239100&hd=2" data-type="iframe" data-preload="false" class="lightbox-link w-inline-block">
+                    <span class="player-play"></span>
+                    <span class="player-text">// Mojjoker cube ue5 matrix</span>
+                    <img
+                      alt="разработка арт контента куб на площади Москва"
+                      width="Auto"
+                      loading="lazy"
+                      class="image-17 tablet_style"
+                      src="images/9.webp"
+                      sizes="(max-width: 479px) 100vw, (max-width: 991px) 45vw, (max-width: 1919px) 30vw, 581.9375px"
+                      srcset="images/9-p-500.webp 500w,
+                      images/9-p-800.webp 800w,
+                      images/9-p-1080.webp 1080w,
+                      images/9.webp 1600w,
+                      images/9.webp 2000w,
+                      images/9.webp 2014w">
+                    <!-- <script type="application/json" class="w-json">{"items": [{"url": "https://youtube.com/watch?v=Ee2FbJab0gM?si=tQZXw1kefI2zBX6d","originalUrl": "https://youtube.com/watch?v=Ee2FbJab0gM?si=tQZXw1kefI2zBX6d","width": 940,"height": 528,"thumbnailUrl": "https://i.ytimg.com/vi/Ee2FbJab0gM/hqdefault.jpg","html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FEe2FbJab0gM%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEe2FbJab0gM&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEe2FbJab0gM%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>","type": "video"}],"group": ""}</script> -->
+                  </a>
+                </div>
+                <div class="headers_box_01 tablet_headers_box_art">
+                  <h3 class="heading-4">Разработка арт контента в контексте:</h3>
+                  <div class="text-block-3">Иммерсивных инсталляций<br>Коммерческих экспозиций<br>Выставочных локаций<br>Рекламного контента<br>Архитектурных дизайн решений<br>Айдентики бренда</div>
+                </div><img src="images/arrow_icon_down.svg" loading="lazy" style="-webkit-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" data-w-id="9c0cf559-0b82-3088-6ebb-d0700e9dac33" alt="навигационный элемент на странице разработчиков интерактивных инсталляций на заказ" class="image-10">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div data-collapse="small" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" data-doc-height="1" role="banner" class="navbar_down section w-nav">
+    <div class="container navbar w-container">
+      <div class="link-wrapper link_wrapper_down">
+        <div class="div-block-8 scroll-spy">
+          <a data-href="#two" class="nav-link spacing_down anchor">Разработка решений</a>
+          <a data-href="#three" target="_blank" class="nav-link spacing_down anchor">Цифровой арт и Fashion</a>
+          <a data-href="#four" class="nav-link spacing_down anchor">Медиа и ритейл</a>
+          <a data-href="#six" class="nav-link spacing_down anchor">Выставки и музеи</a>
+          <a data-href="#seven" class="nav-link spacing_down anchor">Арт Контент</a>
+        </div>
+        <div class="div-block-9">
+          <a href="#contact" class="nav-link_info dc_info">© 2012 - 2024 DCTouch Interactive Systems</a>
+        </div>
+      </div>
+      <div class="menu-button w-nav-button">
+        <div class="w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <div id="contact" class="contact-section">
+    <div class="w-layout-grid grid-3">
+      <h5 id="w-node-f2714c41-82ac-c538-4dce-2b1f2c22350b-f597d24c" class="heading-6">DCTouch Interactive Systems</h5>
+      <div id="w-node-_913e90c8-6f0d-57f2-5bfe-384637febaf3-f597d24c" class="text-block-4">Актуализация и интеграция передовых технологий в области рекламы, строительства и дизайна. Основной фокус  - автоматизация архитектурных и интерьерных объектов, дизайн и реализация выставочных экспозиций, коммерческих арт инсталляций, разработка программного обеспечения,  презентационного контента, софтварных/хардварных пилотов и концепций.</div>
+      <div id="w-node-_0c70c0a1-788a-617b-99d8-abf8fc3c4bde-f597d24c" class="w-layout-hflex flex-block">
+        <a href="#" class="link-2">BACKSTAGE</a>
+        <a href="#" class="link">VK</a>
+      </div>
+      <div id="w-node-_7c3f1f27-f4de-9353-f14b-4e479af08797-f597d24c" class="text-block-6">007 495 227 60 82</div>
+      <div id="w-node-_3c1ebb59-834b-39a5-6a74-8ac020f97fe4-f597d24c" class="text-block-5">support @ dctouch.ru</div>
+      <div id="w-node-_5e6b7ae8-4a55-af40-8b2f-df38953118f2-f597d24c" class="text-block-6">Москва, Новодмитровская улица, д. 5А, офис 1801</div>
+      <div id="w-node-_36206b57-73f4-0dd3-4a69-a13369ff8ae0-f597d24c" class="text-block-6 confidence">Нажимая кнопку “Отправить” вы соглашаетесь на обработку персональных данных (в соответствии с Федеральным законом РФ от 27 июля 2006 г. №152-ФЗ «О персональных данных»)</div>
+      <div id="w-node-_1d0f1303-be54-682b-094d-202ee530256a-f597d24c" class="form-block w-form">
+        <form id="email-form" class="form" novalidate>
+          <input type="hidden" name="form" value="contact form">
+          <input class="text-field w-input required" maxlength="256" name="name" data-message="Пожалуйста, введите корректное имя" placeholder="Имя *" type="text" id="name-2">
+          <input class="text-field w-input required" maxlength="256" name="email" data-message="Пожалуйста, введите корректный email" placeholder="Email *" type="email" id="email-2">
+          <textarea id="Project-Description-2" name="message" maxlength="5000" placeholder="Сообщение *" class="text-field-message w-input"></textarea>
+          <input type="submit" data-wait="Please wait..." class="button w-button" value="Отправить">
+        </form>
+        <div class="w-form-done">
+          <div>Спасибо! Данные успешно отправлены</div>
+        </div>
+        <div class="w-form-fail">
+          <div>Oops! Something went wrong while submitting the form.</div>
+        </div>
+      </div><img src="images/arrow_icon_right.svg" loading="lazy" data-w-id="5c787884-37dc-e34b-8247-4f35455187e3" id="w-node-_5c787884-37dc-e34b-8247-4f35455187e3-f597d24c" alt="навигационный элемент на сайте разработчиков иммерсивных инсталляций в искусстве" class="image-11">
+    </div>
+  </div>
+  <div id="footer" class="footer">
+    <div class="container w-container">
+      <h6 class="heading-7">Другие проекты DCtouch</h6>
+      <h6 class="projects_heading">Выберите проект в списке для просмотра</h6>
+      <div class="w-layout-hflex flex-block-2">
+        <div class="w-layout-vflex">
+          <h6 class="heading-8">VR</h6>
+          <a href="https://www.dctouch.ru/projects/vr/avenue-archiviz" target="_blank" class="link-3">Avenue Archiviz</a>
+          <a href="https://www.dctouch.ru/projects/vr/vrconstruction-simulator" target="_blank" class="link-3">Construction Simulator</a>
+          <a href="https://www.dctouch.ru/projects/vr/vrdeere" target="_blank" class="link-3">Deere</a>
+          <a href="https://www.dctouch.ru/projects/vr/vreggg" target="_blank" class="link-3">EGGG</a>
+          <a href="https://www.dctouch.ru/projects/vr/vrinnovation-center-presentation" target="_blank" class="link-3">Innovation Center</a>
+          <a href="https://www.dctouch.ru/projects/vr/vrkitchen" target="_blank" class="link-3">KITCHEN</a>
+          <a href="https://www.dctouch.ru/projects/vr/lexus-nx" target="_blank" class="link-3">LEXUS NX</a>
+          <a href="https://www.dctouch.ru/projects/vr/vrlogistic-simulator" target="_blank" class="link-3">Logistic Simulator</a>
+          <a href="https://www.dctouch.ru/projects/vr/vrvelton" target="_blank" class="link-3">Mercedes-Benz ConceptCar</a>
+          <a href="https://www.dctouch.ru/projects/vr/vrvelton" target="_blank" class="link-3">Velton</a>
+        </div>
+        <div class="w-layout-vflex">
+          <h6 class="heading-8">Системная интеграция</h6>
+          <a href="https://www.dctouch.ru/projects/sistemnaya-integracziya/ekspoziczionno-multimediinyii-modul" target="_blank" class="link-3">Automated Exibition Hall</a>
+          <a href="https://www.dctouch.ru/projects/sistemnaya-integracziya/chaihona%E2%84%961" target="_blank" class="link-3">CHAIHONA №1</a>
+          <a href="https://www.dctouch.ru/projects/sistemnaya-integracziya/itschool" target="_blank" class="link-3">ITSCHOOL</a>
+          <a href="https://www.dctouch.ru/projects/sistemnaya-integracziya/porsche" target="_blank" class="link-3">PORSCHE</a>
+          <a href="https://www.dctouch.ru/projects/sistemnaya-integracziya/smart-city" target="_blank" class="link-3">Smart City</a>
+          <a href="https://www.dctouch.ru/projects/sistemnaya-integracziya/information-tech-museum" target="_blank" class="link-3 link_bottom">Музей информационных <br>технологий</a>
+          <a href="https://www.dctouch.ru/projects/sistemnaya-integracziya/muzej-neural-networks" target="_blank" class="link-3">Музей Политех</a>
+          <a href="https://www.dctouch.ru/projects/sistemnaya-integracziya/czentralnyij-ofis-sberbank" target="_blank" class="link-3">Центральный офис Сбербанка</a>
+        </div>
+        <div class="w-layout-vflex">
+          <h6 class="heading-8">Мультимедиа контент</h6>
+          <a href="https://www.dctouch.ru/projects/cg/art-vfx-reel" target="_blank" class="link-3">ART VFX Reel</a>
+          <a href="https://www.dctouch.ru/projects/cg/future-medicine" target="_blank" class="link-3">Future Medicine</a>
+          <a href="https://www.dctouch.ru/projects/cg/kinect-interactive-wall-/-huawei" target="_blank" class="link-3">Kinect Interactive wall</a>
+          <a href="https://www.dctouch.ru/projects/cg/kn-classicgraph" target="_blank" class="link-3">KN_classicgraph</a>
+          <a href="https://www.dctouch.ru/projects/cg/mandelbrot" target="_blank" class="link-3">MANDELBROT</a>
+          <a href="https://www.dctouch.ru/projects/cg/nabokov-artgallery" target="_blank" class="link-3">Nabokov ARTgallery</a>
+          <a href="https://www.dctouch.ru/projects/cg/trail-interactive-setup" target="_blank" class="link-3">Trail Interactive Setup</a>
+          <a href="https://www.dctouch.ru/projects/cg/xgfs" target="_blank" class="link-3">xGFs</a>
+        </div>
+        <div class="w-layout-vflex">
+          <h6 class="heading-8">Интерактивные инсталляции</h6>
+          <a href="https://www.dctouch.ru/projects/soft/barvikha-luxury-village" target="_blank" class="link-3">Barviha Luxury Village</a>
+          <a href="https://www.dctouch.ru/projects/soft/burberry" target="_blank" class="link-3">Burberry</a>
+          <a href="https://www.dctouch.ru/projects/soft/dubai-expo-2020/" target="_blank" class="link-3">Dubai Expo 2020</a>
+          <a href="https://www.dctouch.ru/projects/soft/project-jaguar" target="_blank" class="link-3">Jaguar</a>
+          <a href="https://www.dctouch.ru/projects/soft/mercury-/-barvikha-luxury-village" target="_blank" class="link-3">Mercury</a>
+          <a href="https://www.dctouch.ru/projects/soft/tsum-fashion-show" target="_blank" class="link-3">Fashion Show 2022</a>
+          <a href="https://www.dctouch.ru/projects/soft/project-yota" target="_blank" class="link-3">YOTA Drone</a>
+          <a href="https://www.dctouch.ru/projects/soft/project-asi" target="_blank" class="link-3">АСИ</a>
+          <a href="https://www.dctouch.ru/projects/soft/project-astrazeneca" target="_blank" class="link-3">Астразенека</a>
+        </div>
+        <div class="w-layout-vflex">
+          <h6 class="heading-8">Интерактивное оборудование</h6>
+          <a href="https://www.dctouch.ru/tables/interaktivnyie-paneli/padquadro" target="_blank" class="link-3">padQUADRO</a>
+          <a href="https://www.dctouch.ru/tables/gibridnyie-resheniya/smartschool" target="_blank" class="link-3">smartSCHOOL</a>
+          <a href="https://www.dctouch.ru/tables/gibridnyie-resheniya/stella55" target="_blank" class="link-3">STELLA55</a>
+          <a href="https://www.dctouch.ru/tables/gibridnyie-resheniya/stella55" target="_blank" class="link-3">ZEBRA</a>
+          <a href="https://www.dctouch.ru/tables/gibridnyie-resheniya/photomirror" target="_blank" class="link-3">PHOTOMIRROR</a>
+          <a href="https://www.dctouch.ru/tables/multitach-stolyi/flat" target="_blank" class="link-3">FLAT</a>
+          <a href="https://www.dctouch.ru/tables/gibridnyie-resheniya/photomirror" target="_blank" class="link-3">FLOW</a>
+          <a href="https://www.dctouch.ru/tables/multitach-stolyi/glassy" target="_blank" class="link-3">GLASSY</a>
+          <a href="https://www.dctouch.ru/tables/multitach-stolyi/glassy-modular" target="_blank" class="link-3">GLASSY MODULAR</a>
+          <a href="https://www.dctouch.ru/tables/multitach-stolyi/moka" target="_blank" class="link-3">MOKA</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=65e5fb6d0b68f268f597d1d6" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+
+  <script src="edits/libs/fancybox/index.js"></script>
+  <script src="edits/videoplayer.js" type="text/javascript"></script>
+  <script src="edits/scroll.js" type="text/javascript"></script>
+  <script src="edits/form.js" type="text/javascript"></script>
+  <script>
+$(function () {
+  $( "a[data-clean='remove-http']" ).each(function() {
+    var clean = $(this).text().replace(/^\/\/|^.*?:(\/\/)?/, '');
+    $(this).text(clean);
+  });
+});
+</script>
+  <!--  F'in sweet CMS Library for Webflow  -->
+  <script src="https://cdn.jsdelivr.net/npm/@finsweet/cms-library@1/cms-library.js"></script>
+  <script>
+// immediately/self invoked function. This function executes right away
+(function() {
+  // create a new Library instance and store it in a variable called "customBlogPosts"
+  var customBlogPosts = new FsLibrary('.blog-posts-list') // Collection List class
+  // we're going to put our components here
+})();
+</script>
+  <script>
+// immediately/self invoked function. This function executes right away
+(function() {
+  // create a new Library instance and store it in a variable called "fsAnchor"
+  var fsAnchor= new FsLibrary('.anchor-data-feed')  // Class of your CMS collection list
+  // run anchor on our instance
+  fsAnchor.anchor({
+    anchorButton: ".anchor-link-button",  // class of the button that will be put in buttonsTarget
+    anchorId: ".anchor-url-and-section-id",  // class of the href #section this anchor button will scroll to
+    buttonsTarget: ".anchor-put-links-in-here",  // class of the div to place the anchorButton
+    activeClass: "active-link" // class of the active state added to anchorButton
+  })
+})();
+</script>
+[[$counters]]
+</body>
+</html> 
